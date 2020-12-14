@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - API", "1 - API", "{0BA8DDA2-B4AC-47BB-8CF0-DFB00A17FC76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{137BB44A-6DF3-4E0A-97C1-1E28FBAF8E94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Data", "3 - Data", "{BEB287D9-6B79-4D6F-A291-545FF0A06324}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ioasys.IMDb.API", "src\Ioasys.IMDb.API\Ioasys.IMDb.API.csproj", "{C7A13204-8700-4C7E-8341-35F7B31E1118}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ioasys.IMDb.Domain", "src\Ioasys.IMDb.Domain\Ioasys.IMDb.Domain.csproj", "{5B85ADA4-17F9-4A00-BCBB-6823FC26FFD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ioasys.IMDb.Data", "src\Ioasys.IMDb.Data\Ioasys.IMDb.Data.csproj", "{9C6699A7-ABC3-45B5-96E9-9D3BD1359CA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7A13204-8700-4C7E-8341-35F7B31E1118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7A13204-8700-4C7E-8341-35F7B31E1118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7A13204-8700-4C7E-8341-35F7B31E1118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7A13204-8700-4C7E-8341-35F7B31E1118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B85ADA4-17F9-4A00-BCBB-6823FC26FFD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B85ADA4-17F9-4A00-BCBB-6823FC26FFD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B85ADA4-17F9-4A00-BCBB-6823FC26FFD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B85ADA4-17F9-4A00-BCBB-6823FC26FFD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C6699A7-ABC3-45B5-96E9-9D3BD1359CA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C6699A7-ABC3-45B5-96E9-9D3BD1359CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C6699A7-ABC3-45B5-96E9-9D3BD1359CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C6699A7-ABC3-45B5-96E9-9D3BD1359CA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7A13204-8700-4C7E-8341-35F7B31E1118} = {0BA8DDA2-B4AC-47BB-8CF0-DFB00A17FC76}
+		{5B85ADA4-17F9-4A00-BCBB-6823FC26FFD4} = {137BB44A-6DF3-4E0A-97C1-1E28FBAF8E94}
+		{9C6699A7-ABC3-45B5-96E9-9D3BD1359CA8} = {BEB287D9-6B79-4D6F-A291-545FF0A06324}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF75AF8E-5F14-4587-952C-AF888804DBB1}
+	EndGlobalSection
+EndGlobal
